@@ -1,0 +1,84 @@
+/* header */
+.header_top{
+    height: .6rem;
+    background:#fff;
+    border-bottom:1px solid #d8d8d8;
+
+}
+.header_top p{
+    font-size: 18px;
+    line-height: .6rem;
+    text-align: center;
+}
+
+/* 中间部分 */
+.content{
+    height: 5rem;
+    background:#fff;
+
+}
+section{
+    height: 100px;
+}
+/* 中间左边固定部分 */
+.content .sec-left{
+    width:1.05rem;
+    height: .6rem;
+    position: fixed;
+    background:#fff;
+}
+.uls{
+    background: #eee;
+}
+.sec-left .uls li{
+    width: 100%;
+    height: .6rem;
+    border:1px solid #fbfbfb;
+
+}
+.sec-left .uls a{
+    font-size: 14px;
+    width: 100%;
+    height: .6rem;
+    line-height:.6rem;
+    text-align: center;
+    color:#707070;
+
+
+}
+.sec-left .uls a:hover{
+    background:#fff;
+    border:0;
+}
+/* 右边的 */
+.class-1{
+    margin-left: .1rem;
+    color:#202020;
+}
+
+.class-1 h1{
+    width:100%;
+    height: .5rem;
+    text-indent: .12rem;
+    line-height: .7rem;
+    font-weight: 500;
+    font-size: 18px;
+}
+.class-1 a{
+    display: block;
+    width: .6rem;
+    height:.5rem;
+    line-height: .5rem;
+    text-align: center;
+    background:#eee;
+    margin:.1rem;
+    float: left;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.sec-right{
+    width: 71%;
+    float: right;
+}

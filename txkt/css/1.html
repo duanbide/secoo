@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../js/jquery-1.8.3.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            color: black;
+        }
+        .left_nav {
+            border: 1px solid lightpink;
+            background: pink;
+            position:fixed;
+            left: 5px;
+            top:150px;
+            width: 70px;
+            height: 100px;
+            z-index: 5;
+            display:none;
+        }
+        .left_nav p {
+            border-bottom: 1px solid lightpink;
+            text-align: center;
+            line-height: 30px;
+
+        }
+        .left_nav p:first-of-type {
+            margin-top: 15px;
+        }
+        .left_nav p a:hover {
+            color: pink;
+        }
+        .addcolor {
+            background: orchid;
+
+        }
+        #first {
+            height: 300px;
+            background: paleturquoise;
+        }
+        #woman {
+            height:1000px ;
+            background: cornflowerblue;
+        }
+        #man {
+            height:1000px ;
+            background: cadetblue;
+        }
+    </style>
+</head>
+<body>
+<div id="first"></div>
+<div id="woman"></div>
+<div id="man"></div>
+
+<div class="left_nav">
+    <p><a href="#woman">女装</a> </p>
+    <p><a href="#man">男装</a> </p>
+</div>
+
+<script>
+    $(document).scroll(function() {
+        var top=$(this).scrollTop();
+        console.log(top);
+        if(top<300){
+            $(".left_nav").fadeOut(600);
+        }
+        if(top>=300) {
+            $(".left_nav").fadeIn(600);
+        }//菜单先隐藏，鼠标往下滑的距离大于等于300菜单出现
+
+        if(top>=300&&top<1300){
+            $(".left_nav p").eq(0).addClass("addcolor").siblings().removeClass() ;
+        }
+        if(top>1300){
+            $(".left_nav p").eq(1).addClass("addcolor").siblings().removeClass() ;
+        }//鼠标往下滑到相应范围相应菜单栏变色
+    })
+</script>
+</body>
+</html>
