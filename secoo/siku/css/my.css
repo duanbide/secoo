@@ -1,0 +1,151 @@
+header{
+    width:100%;
+    height:2.2rem;
+    background:#1a191e;
+    overflow-x: hidden;
+   
+}
+.my-head-top{
+    margin-bottom: .4rem;
+    margin-top:.23rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.my-head{
+    width:.72rem;
+    height:.75rem;
+}
+.user p{
+    font-size: 18px;
+    color:#fff;
+}
+.user span{
+    width:.6rem;
+    height:.2rem;
+    background:#ffb91d;
+    color:#fff;
+    font-size: 13px;
+    line-height:.2rem; 
+    border-radius: .23rem;
+    text-align: center;
+}
+.sz,.bell-2{
+    width:.26rem;
+    height:.28rem;
+}
+.icon1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.icon1 li img{
+    width:.3rem;
+    height:.34rem;
+
+}
+.icon1 li span{
+    font-size:14px;
+    color:#fff;
+    text-indent: -0.05rem
+}
+
+
+/* section1 */
+
+.section1{
+    display: flex;
+
+}
+.section1 a{
+    width: 1.25rem;
+    height: 1rem;
+    background:#fff;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box;
+
+}
+.section1 a img{
+    width:.535rem;
+    height:.37rem;
+    margin: auto;
+    margin:.24rem .3rem auto;
+
+ 
+}
+.section1 a span{
+    font-size: 14px;
+    text-align: center;
+    color:#000;
+    text-indent: -0.1rem;
+}
+
+
+/* ad */
+
+.vip{
+    width: 100%;
+    height:1rem;
+}
+
+/* 为您挑选 */
+
+.like{
+    background:#fff;
+    margin-bottom: .1rem;
+    margin-top:.15rem;
+
+
+}
+.title-like{
+    font-size: 16px;
+    padding:.15rem 0.08rem;
+
+}
+.shop-first{
+    display: flex;
+
+}
+.product-one{
+    width: 50%;
+    
+}
+.product-one img{
+    width:100%;
+
+}
+.description{
+    height: 1.5rem;
+    padding:.2rem 0.1rem;
+    /* background: red; */
+}
+.description p{
+    font-size: 13px;
+}
+.description .pro-name{
+    font-size: 14px;
+    font-weight:600;
+    line-height: .2rem
+}
+.price{
+    font-size: 16px;
+    font-weight:600;
+    margin-top:.12rem;
+}
+.price span{
+    font-size: 12px;
+    background-color: #f8a120;
+    float: right;
+    margin-right: .4rem;
+    color: #fff;
+}
+.del-price{
+    text-decoration: line-through;
+
+}
+.product-tags{
+    font-size: 12px;
+    color: #8b572a;
+}
